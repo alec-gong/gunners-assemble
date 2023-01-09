@@ -1,0 +1,42 @@
+body,
+html {
+  font-family: "Lato";
+}
+
+#carouselExampleCaptions,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('emirates.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url('emirates_sunny.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url('logo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.buffer {
+  height: 2rem;
+}
+
+.btn-xl {
+  font-size: 1.3rem;
+  padding: 1rem 1.3rem;
+  border-radius: 12px;
+}
